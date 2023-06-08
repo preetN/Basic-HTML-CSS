@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form basic</title>
+  </head>
+  <body>
+    <h1>Register new user</h1>
+    <form action="">
+      <p>
+        <label for="">Username:</label>
+        <input type="text" minlength="3" maxlength="2" />
+      </p>
+      <p>
+        <label for="">email:</label>
+        <input type="email" />
+      </p>
+      <p>
+        <label for="">Phone:</label>
+        <input type="number" min="18" max="100" />
+      </p>
+      <p>
+        <label for="">Password:</label>
+        <input type="password" />
+      </p>
+      <p>
+        <label for="">Linkedin:</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label for="">DOB:</label>
+        <input type="date" /><input type="time" />
+      </p>
+      <p>
+        <label for="">Message:</label>
+        <textarea cols="3" rows="2"></textarea>
+      </p>
+      <p>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" /><label for="">Male</label>
+        <input type="radio" name="gender" /><label for="">Female</label>
+        <input type="radio" name="gender" /><label for="">Not specified</label>
+      </p>
+      <p>
+        <input type="checkbox" name=" " id="" /><label for="">I agree</label>
+      </p>
+      <p>
+        <label for="">Select a fruit:</label>
+        <select name="" id="">
+          <option value="">- slect -</option>
+          <option value="">Apple</option>
+          <option value="">Banana</option>
+          <option value="">Mango</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Select a veggie:</label>
+        <select name="" id="" multiple>
+          <option value="">Capsicum</option>
+          <option value="">Okra</option>
+          <option value="">Tomato</option>
+          <option value="">Potato</option>
+          <option value="">Carrot</option>
+          <option value="">Chillly</option>
+        </select>
+      </p>
+      <p>
+        <label for="">Upload a file</label
+        ><input type="file" accept="image/*" multiple />
+      </p>
+      <p>
+        <button>Submit</button>
+      </p>
+    </form>
+    <a href="/index.html" target="">Back to home</a>
+  </body>
+</html>
